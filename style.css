@@ -132,9 +132,8 @@ body{
     margin-right : 5px;
 }
 #scoreContainer{
-    margin : 20px auto;
+    margin : -200px auto;
     background-color: white;
-    opacity: 0.8;
     height: 300px;
     width : 700px;
     border-radius: 5px;
@@ -152,7 +151,6 @@ body{
     display: block;
     width : 59px;
     height :59px;
-    top:130px;
     left:325px;
     font-size: 1.5em;
     font-weight: bold;

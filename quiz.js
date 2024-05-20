@@ -3072,6 +3072,18 @@ function renderQuestionMedication() {
     justRenderbitch(firstArrCount)    
 }
 
+function RetourStartMedoc(){
+  start.style.display = "block";
+  medocStart.style.display = "block";
+  medocQuiz.style.display = "none";  
+}
+
+function RetourStartQuiz(){
+  start.style.display = "block";
+  medocStart.style.display = "block";
+  quiz.style.display = "none";
+}
+
 function checkmedocAnswer(){
   console.log(document.getElementById('TextInput').value)
   console.log(BiggestArrayEver[firstArrCount][2])
