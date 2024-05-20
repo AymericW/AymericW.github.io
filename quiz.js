@@ -3072,10 +3072,9 @@ function checkmedocAnswer(){
     console.log(document.getElementById('TextInput').value)
     console.log(BiggestArrayEver[firstArrCount][2])
     if(document.getElementById('TextInput').value == BiggestArrayEver[firstArrCount][2]){
-        console.log("test")
         justRenderbitch(firstArrCount = firstArrCount + 1)
     }else{
-        
+        alert("Ce n'est pas la bonne réponse")
     }
 }
 
