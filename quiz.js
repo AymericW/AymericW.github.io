@@ -3043,7 +3043,7 @@ const gaugeWidth = 150; // 150px
 const gaugeUnit = gaugeWidth / questionTime;
 let TIMER;
 let score = 0;
-let firstArrCount = 1;
+let firstArrCount = getRandomInt(BiggestArrayEver.length)
 
 // render a question
 function renderQuestion(){
@@ -3061,18 +3061,22 @@ document.getElementById('MedicStart').addEventListener('click', renderQuestionMe
 
 document.getElementById('response').addEventListener('click', checkmedocAnswer)
 
+function getRandomInt(max) {
+  return Math.floor(Math.random() * max);
+}
+
 function renderQuestionMedication() {
     start.style.display = "none";
     medocStart.style.display = "none";
     medocQuiz.style.display = "block";   
-    justRenderbitch(1)    
+    justRenderbitch(firstArrCount)    
 }
 
 function checkmedocAnswer(){
-    console.log(document.getElementById('TextInput').value)
-    console.log(BiggestArrayEver[firstArrCount][2])
+  console.log(document.getElementById('TextInput').value)
+  console.log(BiggestArrayEver[firstArrCount][2])
     if(document.getElementById('TextInput').value == BiggestArrayEver[firstArrCount][2]){
-        justRenderbitch(firstArrCount = firstArrCount + 1)
+        justRenderbitch(firstArrCount = getRandomInt(BiggestArrayEver.length))
     }else{
         alert("Ce n'est pas la bonne réponse")
     }
