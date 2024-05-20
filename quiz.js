@@ -3072,13 +3072,13 @@ function renderQuestionMedication() {
     justRenderbitch(firstArrCount)    
 }
 
-function RetourStartMedoc(){
+function retourStartMedoc(){
   start.style.display = "block";
   medocStart.style.display = "block";
   medocQuiz.style.display = "none";  
 }
 
-function RetourStartQuiz(){
+function retourStartQuiz(){
   start.style.display = "block";
   medocStart.style.display = "block";
   quiz.style.display = "none";
