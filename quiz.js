@@ -950,7 +950,7 @@ let BiggestArrayEver = [
       "Lansoprazole",
       "Lansoprazole"
     ],
-    [
+    [ 
       "Ipp",
       "Oméprazole",
       "Acidcare\n\n\n\n"
@@ -3084,10 +3084,16 @@ function retourStartQuiz(){
   quiz.style.display = "none";
 }
 
-function checkmedocAnswer(){
+function checkmedocAnswer(){  
+  let answers = []
+  BiggestArrayEver.forEach((element) => {
+    if(element[1] == BiggestArrayEver[firstArrCount][1]){
+      answers.push(element[2].trim())
+    }
+  })
+  console.log(answers)
   console.log(document.getElementById('TextInput').value)
-  console.log(BiggestArrayEver[firstArrCount][2])
-    if(document.getElementById('TextInput').value == BiggestArrayEver[firstArrCount][2]){
+    if(answers.includes(document.getElementById('TextInput').value)){
         justRenderbitch(firstArrCount = getRandomInt(BiggestArrayEver.length))
     }else{
         alert("Ce n'est pas la bonne réponse")
