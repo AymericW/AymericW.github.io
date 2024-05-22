@@ -3015,21 +3015,21 @@ let questions = [
         choiceD : "D)ZYLORIC",
         correct : "A"
       },{
-        question:  "?which of the following expressions has two terms and a coefficient of 6?",
+        question:  "Madame X, 77 ans a malheureusement chuté sur une plaque de verglas presente devant sa porte, elle s'est luxée la hanche droite. Le médecin lui prescrit de l'OXYCONTIN 10 mg matin et soir pôur la gestion de la douleur mais ce n'est pas suffisant. Que peut-elle prendre en entre dose : ",
         imgSrc : "img/css.png",
-        choiceA : "A)6y^2-2x+10",
-        choiceB : "B)6y^2-18",
-        choiceC : "C)-y^2+6",
-        choiceD : "D)6-12y",
-        correct : "B"
-      },{
-        question:  "What is the product of 75.0 feet and 2.05 feet written with the correct number of significant digets?",
-        imgSrc : "img/css.png",
-        choiceA : "A)153.75 ft^2",
-        choiceB : "B)153.8 ft^2",
-        choiceC : "C)154 ft^2",
-        choiceD : "D)150 ft^2",
+        choiceA : "A)MS CONTIN 10mg ",
+        choiceB : "B)DUROGESIC 25mg",
+        choiceC : "C)OXYNORM 5 mg ",
+        choiceD : "D)DULOXETINE",
         correct : "C"
+      },{
+        question:  "Monsieur X, est en fin de vie et ne sait plus prendre ses anti-épileptiques per os car il fait des Fausses déglutitions et s'encombre. Il n' plus de voie IV non plus car sont corps ne gèrent plus les liquides. Qu'elle anti épileptique peut on donner en SC ? ",
+        imgSrc : "img/css.png",
+        choiceA : "A)BRIVIACT",
+        choiceB : "B)KEPPRA",
+        choiceC : "C)PHENOBARBITAL",
+        choiceD : "D)VIMPAT",
+        correct : "B,C"
     }
 ];
 
